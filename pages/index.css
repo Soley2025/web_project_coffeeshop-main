@@ -15,3 +15,9 @@
 }
 .nav__logo {
 }
+
+.header__image {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
