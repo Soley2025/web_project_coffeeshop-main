@@ -19,6 +19,14 @@
   box-sizing: border-box;
   background: #fff url(../images/background_header.svg);
 }
+
+.header__paragraph {
+  font-style: normal;
+  font-weight: 500;
+  color: #838383;
+  margin: 0;
+}
+
 .nav__logo {
 }
 
