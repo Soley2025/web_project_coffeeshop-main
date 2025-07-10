@@ -26,7 +26,13 @@
 }
 
 .nav__logo {
+  display: flex;
   position: relative;
+  left: 30px;
+  top: 30px;
+  margin-bottom: 183px;
+  height: 30px;
+  width: 105px;
 }
 
 .nav__link {
@@ -49,6 +55,15 @@
 ul {
 }
 .header__title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: Noto Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
 }
 
 .header__description {
