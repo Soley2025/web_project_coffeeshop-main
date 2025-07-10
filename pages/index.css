@@ -64,6 +64,8 @@ ul {
   font-size: 58px;
   line-height: 72px;
   color: #2f80ed;
+  max-width: 709px;
+  left: 80px;
 }
 
 .header__description {
