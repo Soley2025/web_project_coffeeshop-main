@@ -17,7 +17,28 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
-  background: #fff url(../images/background_header.svg);
+  background: #fff url (../images/background_header.svg);
+}
+
+.nav__logo {
+  position: relative;
+}
+
+.nav__link {
+}
+
+.header__title {
+}
+
+.header__description {
+}
+
+.header__image {
+  position: absolute;
+  max-width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
 }
 
 .header__footer {
@@ -29,20 +50,15 @@
   box-sizing: border-box;
 }
 
+.header__footer {
+}
+
+.header__schedule {
+}
+
 .header__paragraph {
   font-style: normal;
   font-weight: 500;
   color: #838383;
   margin: 0;
-}
-
-.nav__logo {
-}
-
-.header__image {
-  position: absolute;
-  max-width: 646px;
-  height: 568px;
-  top: 124px;
-  right: 5px;
 }
