@@ -24,7 +24,7 @@
   position: absolute;
 }
 
-.headerspan-accent {
+.header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
@@ -34,7 +34,7 @@
   color: #2f80ed;
 }
 
-.headerdescription {
+.header__description {
   max-width: 683px;
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -44,14 +44,14 @@
   line-height: 30px;
 }
 
-.headerimage {
+.header__image {
   position: absolute;
   max-width: 646px;
   top: 124px;
   right: 5px;
 }
 
-.headerfooter {
+.header__footer {
   margin-top: auto;
   width: 100%;
   display: flex;
@@ -60,7 +60,7 @@
   box-sizing: border-box;
 }
 
-.headerparagraph {
+.header__paragraph {
   font-style: normal;
   font-weight: 500;
   color: #838383;
@@ -77,26 +77,26 @@
   line-height: 20px;
 }
 
-.navlogo {
+.nav__logo {
   height: 39px;
   width: 105px;
   position: relative;
   left: -50px;
 }
 
-.navlinks {
+.nav__links {
   list-style-type: none;
   margin: 0;
   display: flex;
   column-gap: 20px;
 }
 
-.navlink {
+.nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
 
-.navlink:hover {
+.nav__link:hover {
   color: #2f80ed;
 }
