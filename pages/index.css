@@ -102,6 +102,23 @@
 }
 
 .section {
-  background-color: ;
+  background-color: #0a2750;
   image: url(../images/background_recipes.svg);
+  size: cover;
+}
+
+.recipes__title {
+  max-width: 580px;
+  padding-top: 100px;
+  margin-left: 80 px;
+}
+
+.repipes__subtitle {
+  max-width: 438px;
+  padding-top: 24px;
+  margin-left: 80px;
+}
+
+.recipes__video {
+  display: flex;
 }
