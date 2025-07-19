@@ -101,5 +101,7 @@
   color: #2f80ed;
 }
 
-.content {
+.section {
+  background-color: ;
+  image: url(../images/background_recipes.svg);
 }
