@@ -101,6 +101,53 @@
           </div>
         </section>
         <section class="reservation" id="'reservation"></section>
+        <h2 class="reservation__title">
+          Reservar una mesa
+          <form action="#" class="form reservation__form">
+            <fieldset class="fieldset">
+              <label class="form__lable" for="nombre">Nombre </label>
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Nombre"
+                required
+                id="nombre"
+              />
+            </fieldset>
+            <fieldset class="fieldset">
+              <label class="form__lable" for="numero"
+                >Numero de Comensales
+              </label>
+              <input
+                class="form__input"
+                type="number"
+                placeholder="1-8"
+                required
+                id="numero"
+              />
+            </fieldset>
+            <fieldset class="fieldset">
+              <label class="form__lable" for="dtate"></label> Fecha y hora</label>
+              <input
+                class="form__input"
+                type="datetime-local"
+                placeholder="dd/mm/aaaa"
+                required
+                id="dtate"
+              />
+            </fieldset>
+            <fieldset class="fieldset">
+              <label class="form__lable" for="email">Correo Electronico</label>
+              <input
+                class="form__input"
+                type="email"
+                placeholder="email@email.com"
+                required
+                id="email"
+              />
+            </fieldset>
+          </form>
+        </h2>
       </main>
       <footer class="footer"></footer>
     </div>

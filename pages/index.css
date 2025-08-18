@@ -166,3 +166,7 @@
   align-items: center;
   width: 100%;
 }
+
+.form__input {
+  border-radius: 4px;
+}
