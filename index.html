@@ -122,6 +122,8 @@
                 class="form__input"
                 type="number"
                 placeholder="1-8"
+                min="1"
+                max="9"
                 required
                 id="numero"
               />
@@ -154,13 +156,13 @@
               placeholder="Reservar una mesa" required 
               id="Reservar">
             <fieldset class="fieldset">
-              <label class="form__lable" for="Terminos">Acepto terminos y condiciones</label>
+              <label class="form__lable" for="checkbox">Acepto terminos y condiciones</label>
               <input
               class="form__checkbox"
               type="checkbox"
-              placeholder="Reservar una mesa" required 
+              name="checkbox" required 
               value="Acepto terminos y condiciones"
-              id="Terminos">
+              id="checkbox">
             </fieldset>
           </form>
         </h2>

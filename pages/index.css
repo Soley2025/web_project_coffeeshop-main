@@ -180,3 +180,10 @@
 .form__checkbox {
   border-radius: 2px;
 }
+
+.form__label {
+  display: flex;
+}
+
+.reservation__title {
+}
