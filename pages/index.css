@@ -179,6 +179,7 @@
 
 .form__checkbox {
   border-radius: 2px;
+  display: inline-block;
 }
 
 .form__label {
@@ -186,4 +187,10 @@
 }
 
 .reservation__title {
+}
+
+.form__fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
