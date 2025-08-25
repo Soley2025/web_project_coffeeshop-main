@@ -167,6 +167,17 @@
   width: 100%;
 }
 
+.reservation ´ {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .form__input {
   border-radius: 4px;
 }
@@ -183,10 +194,19 @@
 }
 
 .form__label {
+  font-family: "inter", "style normal";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
   display: flex;
 }
 
 .reservation__title {
+  padding-top: 100px;
+  margin: 0px auto 80px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .form__fieldset {
