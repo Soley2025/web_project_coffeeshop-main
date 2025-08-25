@@ -178,6 +178,22 @@
   background-size: cover;
 }
 
+.reservation__title {
+  padding-top: 100px;
+  margin: 0px auto 80px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.reservation__form {
+  margin: 0 auto 120px;
+}
+
 .form__input {
   border-radius: 4px;
 }
@@ -198,15 +214,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  display: flex;
-}
-
-.reservation__title {
-  padding-top: 100px;
-  margin: 0px auto 80px;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
+  display: block;
 }
 
 .form__fieldset {
