@@ -201,7 +201,6 @@
 }
 
 .form__label {
-  font-family: "inter", "style normal";
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
@@ -227,6 +226,12 @@
   color: #fff;
   margin-top: 32px;
   height: 60px;
+  font-family: inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
 }
 
 .form__fieldset_el_center {
@@ -242,4 +247,6 @@
 }
 
 .form__label_direction_right {
+  margin top: 32px;
+
 }
