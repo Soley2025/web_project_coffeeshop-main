@@ -223,10 +223,9 @@
   height: 60px;
   padding: 15px 20px;
   width: 100%;
-
 }
 
-.form__button:{
+.form__button:hover {
   border-radius: 4px;
   background-color: #2f80ed;
   color: #fff;
@@ -236,7 +235,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-
 }
 
 .form__fieldset_el_center {
@@ -252,6 +250,5 @@
 }
 
 .form__label_direction_right {
-  margin top: 32px;
-
+  margin-top: 32px;
 }
