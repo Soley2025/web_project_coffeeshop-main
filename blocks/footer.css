@@ -76,9 +76,8 @@
   margin-bottom: 16px;
 }
 
-footer__copyright {
+.footer__copyright {
   font-size: 16px;
   line-height: 20px;
   margin: 108px 80px 60px;
-  position: absolute;
 }
