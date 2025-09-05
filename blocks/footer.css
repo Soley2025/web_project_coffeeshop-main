@@ -28,7 +28,7 @@
   top: -128px;
   left: -44px;
   border-radius: 100%;
-  z-index: 1;
+  z-index: 0;
 }
 
 .footer__social {
@@ -69,9 +69,10 @@
 .footer__social-item {
   align-items: center;
   display: flex;
+  margin-bottom: 16px;
 }
 footer__copyright {
   font-size: 16px;
   line-height: 20px;
-  margin: 108px 60px 80px;
+  margin: 300px 80px 60px;
 }
