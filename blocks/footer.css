@@ -62,12 +62,11 @@
   margin-right: 10px;
 }
 
-.footer__social-link:hover {
+.footer__social-link {
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
-  color: #fff;
-  color: #c1c1c1;
+  color: inherit;
 }
 
 .footer__social-item {
